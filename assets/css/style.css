@@ -164,6 +164,7 @@ button{
     font-size: 1rem;
     font-weight: 400;
     color: #c7bab3;
+    margin-bottom: 0.5rem;
 }
 
 /*Card*/
@@ -173,7 +174,11 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: auto;
 }
+
 .receitas-card{
     background: #241a1c;
     padding: 2rem;
@@ -181,8 +186,7 @@ button{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    flex-basis: 29rem;
-    margin-top: 2rem;
+    flex-basis: calc(50% - 1rem);
 }
 .receitas-card-cabecalho{
     display: flex;
@@ -203,7 +207,7 @@ button{
 }
 .receita-avaliacao{
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 500;
     color: #756a67;
 }
